@@ -9,19 +9,19 @@ namespace cis237inclass3
     class Employee
     {
         //Backing fields
-        private string firstName;
-        private string lastName;
+        protected string _firstName;
+        protected string _lastName;
 
         //properties for the backing fields
         public string FirstName
         {
-            get { return firstName; }
-            set { firstName = value; }
+            get { return _firstName; }
+            set { _firstName = value; }
         }
         public string LastName
         {
-            get { return lastName; }
-            set { lastName = value; }
+            get { return _lastName; }
+            set { _lastName = value; }
         }
 
 
@@ -29,15 +29,15 @@ namespace cis237inclass3
         //It overrides the default ToString that every object gets for free!
         public override string ToString()
         {
-            return this.firstName + " " + this.lastName;
+            return this._firstName + " " + this._lastName;
         }
 
         //3 Parameter constructor
         public Employee(string firstName, string lastName)
         {
             //Assign the passed in values to the fields
-            this.firstName = firstName;
-            this.lastName = lastName;
+            this._firstName = firstName;
+            this._lastName = lastName;
         }
 
         //Default constructor
