@@ -45,6 +45,13 @@ namespace cis237inclass3
             employees[2] = new HourlyEmployee("Benjamin", "Sisko", 14.56m);
             employees[3] = new SalaryEmployee("Kathryn", "Janeway", 67123m);
             employees[4] = new SalaryEmployee("Johnathan", "Archer", 12232m);
+
+            employees[5] = new HourlyEmployee("James", "Kirk",12.5m);
+            employees[6] = new SalaryEmployee("Jean-Luc", "Picard", 55123.00m);
+            employees[7] = new HourlyEmployee("Benjamin", "Sisko", 14.56m);
+            employees[8] = new SalaryEmployee("Kathryn", "Janeway", 67000m);
+            employees[9] = new SalaryEmployee("Johnathan", "Archer", 12000m);
+
             
 
             //Lets use the new CSVProcessor we made!

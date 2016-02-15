@@ -29,7 +29,7 @@ namespace cis237inclass3
         //
         public override string ToString()
         {
-            return base.ToString() + "" + this._hourlyRate.ToString("c");
+            return base.ToString() + " " + this._hourlyRate.ToString("c");
         }
 
         // Constructors
