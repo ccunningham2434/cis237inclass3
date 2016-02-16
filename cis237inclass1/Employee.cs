@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace cis237inclass3
 {
-    class Employee
+    // Abstract classes cannot be created as a new instance.
+    abstract class Employee
     {
         //Backing fields
         protected string _firstName;

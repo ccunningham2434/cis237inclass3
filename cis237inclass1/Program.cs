@@ -11,8 +11,8 @@ namespace cis237inclass3
         static void Main(string[] args)
         {
             //Create a couple of instances of the Employee class
-            Employee employee1 = new Employee("Dave", "Barnes");
-            Employee employee2 = new Employee("Joe", "Somebody");
+            //Employee employee1 = new Employee("Dave", "Barnes");
+            //Employee employee2 = new Employee("Joe", "Somebody");
 
             // make new salary employee.
             SalaryEmployee salaryEmployee1 = new SalaryEmployee("David", "Barnes", 55000m);
@@ -28,9 +28,9 @@ namespace cis237inclass3
             Console.WriteLine(myNumber);
 
             //Write the value of the employee before the method, call the method, print after call.
-            Console.WriteLine(employee1.ToString());
-            changeAnObject(employee1);
-            Console.WriteLine(employee1.ToString());
+            //Console.WriteLine(employee1.ToString());
+            //changeAnObject(employee1);
+            //Console.WriteLine(employee1.ToString());
             
             //Console.WriteLine(employee.GetFullName());
             //Console.WriteLine(employee.ToString());
