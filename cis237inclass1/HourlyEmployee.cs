@@ -38,6 +38,14 @@ namespace cis237inclass3
         {
             _hourlyRate = hourlyRate;
         }
+
+        // This is the override for the abstract method we have declared in the...
+        // ...employee class. We are required to provide an implementation since it...
+        // ...was declared abstract in the parent 'Employee'.
+        public override string GetFormattedSalary()
+        {
+            return this.Salary.ToString("C");
+        }
     }
 
 }
