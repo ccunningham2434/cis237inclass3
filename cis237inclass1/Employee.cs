@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace cis237inclass3
 {
     // Abstract classes cannot be created as a new instance. | Impliments the IEmployee interface.
-    abstract class Employee : IEmployee
+    public abstract class Employee : IEmployee
     {
         //Backing fields
         protected string _firstName;

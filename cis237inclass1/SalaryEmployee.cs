@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace cis237inclass3
 {
     // use the colon to denote that this class inherits from the class listed after the colon.
-    class SalaryEmployee : Employee
+    public class SalaryEmployee : Employee
     {
         private decimal _salary;
 
